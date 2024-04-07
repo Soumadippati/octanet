@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Octanet - Web Solutions</title>
+  <style>
+    /* css part */
+    body, h1, h2, h3, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: skyblue;
+      color: #343a40;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      background-color: #343a40;
+      overflow: hidden;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav a:hover {
+      background-color: #495057;
+    }
+
+    .hero-section {
+      background-image: url("ph3.webp");
+      background-size: cover;
+      background-position: center;
+      margin: 20px auto;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 36px;
+      color: black;
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #343a40;
+      text-transform: uppercase;
+      border-bottom: 2px solid #343a40;
+      padding-bottom: 10px;
+    }
+
+    .section-content {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .feature {
+      width: calc(33.33% - 20px);
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #343a40;
+    }
+
+    .feature p {
+      color: #6c757d;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta button {
+      padding: 12px 24px;
+      font-size: 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .cta button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Octanet Logo">
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero-section">
+    <h1>Welcome to Octanet</h1>
+  </div>
+  <div class="content">
+    <h2 class="section-title" id="services">Our Services</h2>
+    <p class="section-content">Octanet offers a comprehensive range of web solutions to help businesses thrive online. Here's a glimpse of what we do:</p>
+    <div class="features">
+      <div class="feature">
+        <h2>Web Design</h2>
+        <p>We create stunning and user-friendly websites that reflect your brand and drive results.</p>
+      </div>
+      <div class="feature">
+        <h2>Web Development</h2>
+        <p>Our skilled developers craft custom web applications and platforms to meet your specific needs.</p>
+      </div>
+      <div class="feature">
+        <h2>Digital Marketing</h2>
+        <p>We implement effective strategies to boost website traffic, generate leads, and increase sales.</p>
+      </div>
+    </div>
+    <h2 class="section-title" id="about">About Us</h2>
+    <p class="section-content">Octanet is a dynamic team of passionate professionals dedicated to providing innovative web solutions to businesses worldwide. With years of experience in the industry, we pride ourselves on delivering high-quality websites, tailored digital strategies, and exceptional customer service.</p>
+    <p class="section-content">Our mission is to empower businesses of all sizes to thrive in the digital landscape by harnessing the power of technology and creativity.</p>
+    <h2 class="section-title" id="contact">Contact Us</h2>
+    <p class="section-content">Contact information goes here</p>
+    <div class="cta">
+      <button>Contact Us</button>
+    </div>
+  </div>
+</body>
+</html>
